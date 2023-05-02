@@ -1,0 +1,539 @@
+idElemenForm,tanggalUpdate,idLaporan,formHTML,urutan,tipeData
+1,2023-01-16 00:14:49.261575,14,"<div class=""container bg-white mb-3 rounded"">
+    <div class=""row"">
+        <div class=""col col-10"">
+            <label id=""kolom1"" class=""form-label"">Nama</label>
+        </div>
+		<div class=""col col-11""> 
+            <input type=""text"" class=""test"" name=""NAMA"">
+        </div>
+    </div>
+</div>",1,text
+2,2023-01-16 00:14:49.261575,14,"<div class=""container bg-white mb-3 rounded"">
+    <div class=""row"">
+        <div class=""col col-10"">
+            <label id=""kolom2"" class=""form-label"">Nomor Kartu BPJS</label> 
+        </div> 
+		<div class=""col col-11"">
+            <input type=""number"" class=""test"" name=""NO KARTU BPJS"">
+        </div> 
+    </div>
+</div>",2,number
+3,2023-01-16 00:14:49.261575,14,"<div class=""container bg-white mb-3 rounded"">
+    <div class=""row"">
+        <div class=""col col-10"">
+            <label id=""kolom3"" class=""form-label"">Status</label>
+        </div>
+		<div class=""col col-11"">
+            <input type=""text"" class=""test"" name=""STATUS"">
+        </div> 
+    </div>
+</div>",3,text
+4,2023-01-16 00:14:49.261575,14,"<div class=""container bg-white mb-3 rounded"">
+    <div class=""row"">
+        <div class=""col col-10"">
+			<input type=""hidden"" id=""name4"" value=""JK"">
+            <label id=""kolom4"" class=""form-label"">Jenis Kelamin</label>
+        </div>  
+		<div class=""col col-11"">
+            <div class=""form-check"">
+				<input class=""Jenis Kelamin"" value=""L"" onChange=""radioHandler(`Jenis Kelamin`)"" type=""radio"" name=""labelJenis Kelamin"" id=""flexRadioDefault1"">
+				<label class=""form-check-label"" for=""flexRadioDefault1"">
+					L
+				</label>
+			</div>
+			<div class=""form-check"">
+				<input class=""Jenis Kelamin"" value=""P"" onChange=""radioHandler(`Jenis Kelamin`)"" type=""radio"" name=""labelJenis Kelamin"" id=""flexRadioDefault2"">
+				<label class=""form-check-label"" for=""flexRadioDefault2"">
+					P
+				</label>
+			</div>
+        </div>
+    </div>
+	<input type=""hidden"" class=""test"" id=""radioJenis Kelamin"" name=""JK"">
+</div>",4,radio
+5,2023-01-16 00:14:49.261575,14,"<div class=""container bg-white mb-3 rounded"">
+    <div class=""row"">
+        <div class=""col col-10"">
+            <label id=""kolom5"" class=""form-label"">Nama Obat</label>
+        </div>  
+		<div class=""col col-11"">
+            <input type=""text"" class=""test"" name=""NAMA OBAT"">
+        </div>  
+    </div>
+</div>",5,text
+6,2023-01-16 00:14:49.261575,14,"<div class=""container bg-white mb-3 rounded"">
+    <div class=""row"">
+        <div class=""col col-10"">
+            <label id=""kolom6"" class=""form-label"">Signa</label>
+        </div> 
+		<div class=""col col-11"">
+            <input type=""text"" class=""test"" name=""SIGNA"">
+        </div>
+    </div>
+</div>",6,text
+7,2023-01-16 00:14:49.261575,14,"<div class=""container bg-white mb-3 rounded"">
+    <div class=""row"">
+        <div class=""col col-10"">
+            <label id=""kolom7"" class=""form-label"">Jumlah</label>
+        </div>
+		<div class=""col col-11"">
+            <input type=""text"" class=""test"" name=""JUMLAH"">
+        </div>
+    </div>
+</div>",7,text
+8,2023-01-16 00:14:49.261575,14,"<div class=""container bg-white mb-3 rounded"">
+    <div class=""row"">
+        <div class=""col col-10"">
+			<input type=""hidden"" id=""name8"" value=""KLUB"">
+            <label id=""kolom8"" class=""form-label"">Klub</label>
+        </div> 
+		<div class=""col col-11"">
+            <div class=""form-check"">
+				<input class=""Klub"" value=""DM"" onChange=""radioHandler(`Klub`)"" type=""radio"" name=""labelKlub"" id=""flexRadioDefault1"">
+				<label class=""form-check-label"" for=""flexRadioDefault1"">
+					DM
+				</label>
+			</div>
+			<div class=""form-check"">
+				<input class=""Klub"" value=""HT"" onChange=""radioHandler(`Klub`)"" type=""radio"" name=""labelKlub"" id=""flexRadioDefault2"">
+				<label class=""form-check-label"" for=""flexRadioDefault2"">
+					HT
+				</label>
+			</div>
+        </div>
+    </div>
+	<input type=""hidden"" class=""test"" id=""radioKlub"" name=""KLUB"">
+</div>",8,radio
+9,2023-01-16 00:14:49.261575,14,"<div class=""container bg-white mb-3 rounded"">
+    <div class=""row"">
+        <div class=""col col-10"">
+			<input type=""hidden"" id=""name9"" value=""KEHADIRAN"">
+            <label id=""kolom9"" class=""form-label"">Kehadiran</label>
+        </div> 
+		<div class=""col col-11"">
+            <div class=""form-check"">
+				<input class=""Kehadiran"" value=""Ya"" onChange=""radioHandler(`Kehadiran`)"" type=""radio"" name=""labelKehadiran"" id=""flexRadioDefault1"">
+				<label class=""form-check-label"" for=""flexRadioDefault1"">
+					Ya
+				</label>
+			</div>
+			<div class=""form-check"">
+				<input class=""Kehadiran"" value=""Tidak"" onChange=""radioHandler(`Kehadiran`)"" type=""radio"" name=""labelKehadiran"" id=""flexRadioDefault2"">
+				<label class=""form-check-label"" for=""flexRadioDefault2"">
+					Tidak
+				</label>
+			</div>
+        </div>
+    </div>
+	<input type=""hidden"" class=""test"" id=""radioKehadiran"" name=""KEHADIRAN"">
+</div>",9,radio
+10,2023-01-16 00:14:54.442131,12,"<div class=""container bg-white mb-3 rounded"">
+    <div class=""row"">
+        <div class=""col col-10"">
+            <label id=""kolom1"" class=""form-label"">Nama Siswa</label>
+        </div>
+		<div class=""col col-11""> 
+            <input type=""text"" class=""test"" name=""NAMA"">
+        </div>
+    </div>
+</div>",1,text
+11,2023-01-16 00:14:54.442131,12,"<div class=""container bg-white mb-3 rounded"">
+    <div class=""row"">
+        <div class=""col col-10"">
+            <label id=""kolom2"" class=""form-label"">Tanggal Lahir</label>
+        </div>
+		<div class=""col col-11""> 
+            <input type=""date"" class=""test"" name=""Tanggal Lahir"">
+        </div>
+    </div>
+</div>",2,date
+12,2023-01-16 00:14:54.442131,12,"<div class=""container bg-white mb-3 rounded"">
+    <div class=""row"">
+        <div class=""col col-10"">
+			<input type=""hidden"" id=""name3"" value=""Tingkat Pendidikan?"">
+            <label id=""kolom3"" class=""form-label"">Tingkat Pendidikan</label>
+        </div>  
+		<div class=""col col-11"">
+            <div class=""form-check"">
+				<input class=""Tingkat Pendidikan"" value=""SD"" onChange=""radioHandler(`Tingkat Pendidikan`)"" type=""radio"" name=""labelTingkat Pendidikan"" id=""flexRadioDefault1"">
+				<label class=""form-check-label"" for=""flexRadioDefault1"">
+					SD
+				</label>
+			</div>
+			<div class=""form-check"">
+				<input class=""Tingkat Pendidikan"" value=""SMP"" onChange=""radioHandler(`Tingkat Pendidikan`)"" type=""radio"" name=""labelTingkat Pendidikan"" id=""flexRadioDefault2"">
+				<label class=""form-check-label"" for=""flexRadioDefault2"">
+					SMP
+				</label>
+			</div>
+			<div class=""form-check"">
+				<input class=""Tingkat Pendidikan"" value=""SMA"" onChange=""radioHandler(`Tingkat Pendidikan`)"" type=""radio"" name=""labelTingkat Pendidikan"" id=""flexRadioDefault3"">
+				<label class=""form-check-label"" for=""flexRadioDefault3"">
+					SMA
+				</label>
+			</div>
+        </div>
+    </div>
+	<input type=""hidden"" class=""test"" id=""radioTingkat Pendidikan"" name=""Tingkat Pendidikan?"">
+</div>",3,radio
+13,2023-01-16 00:14:54.442131,12,"<div class=""container bg-white mb-3 rounded"">
+    <div class=""row"">
+        <div class=""col col-10"">
+			<input type=""hidden"" id=""name4"" value=""Golongan Darah"">
+            <label id=""kolom4"" class=""form-label"">Golongan Darah</label>
+        </div>  
+		<div class=""col col-11"">
+            <div class=""form-check"">
+				<input class=""Golongan Darah"" value=""A"" onChange=""radioHandler(`Golongan Darah`)"" type=""radio"" name=""labelGolongan Darah"" id=""flexRadioDefault1"">
+				<label class=""form-check-label"" for=""flexRadioDefault1"">
+					A
+				</label>
+			</div>
+			<div class=""form-check"">
+				<input class=""Golongan Darah"" value=""B"" onChange=""radioHandler(`Golongan Darah`)"" type=""radio"" name=""labelGolongan Darah"" id=""flexRadioDefault2"">
+				<label class=""form-check-label"" for=""flexRadioDefault2"">
+					B
+				</label>
+			</div>
+			<div class=""form-check"">
+				<input class=""Golongan Darah"" value=""AB"" onChange=""radioHandler(`Golongan Darah`)"" type=""radio"" name=""labelGolongan Darah"" id=""flexRadioDefault3"">
+				<label class=""form-check-label"" for=""flexRadioDefault3"">
+					AB
+				</label>
+			</div>
+			<div class=""form-check"">
+				<input class=""Golongan Darah"" value=""O"" onChange=""radioHandler(`Golongan Darah`)"" type=""radio"" name=""labelGolongan Darah"" id=""flexRadioDefault4"">
+				<label class=""form-check-label"" for=""flexRadioDefault4"">
+					O
+				</label>
+			</div>
+        </div>
+    </div>
+	<input type=""hidden"" class=""test"" id=""radioGolongan Darah"" name=""Golongan Darah"">
+</div>",4,radio
+14,2023-01-16 00:14:54.442131,12,"<div class=""container bg-white mb-3 rounded"">
+    <div class=""row"">
+        <div class=""col col-10"">
+			<input type=""hidden"" id=""name5"" value=""Jenis Kelamin"">
+            <label id=""kolom5"" class=""form-label"">Jenis Kelamin</label>
+        </div>  
+		<div class=""col col-11"">
+            <div class=""form-check"">
+				<input class=""Jenis Kelamin"" value=""laki-laki"" onChange=""radioHandler(`Jenis Kelamin`)"" type=""radio"" name=""labelJenis Kelamin"" id=""flexRadioDefault1"">
+				<label class=""form-check-label"" for=""flexRadioDefault1"">
+					laki-laki
+				</label>
+			</div>
+			<div class=""form-check"">
+				<input class=""Jenis Kelamin"" value=""perempuan"" onChange=""radioHandler(`Jenis Kelamin`)"" type=""radio"" name=""labelJenis Kelamin"" id=""flexRadioDefault2"">
+				<label class=""form-check-label"" for=""flexRadioDefault2"">
+					perempuan
+				</label>
+			</div>
+        </div>
+    </div>
+	<input type=""hidden"" class=""test"" id=""radioJenis Kelamin"" name=""Jenis Kelamin"">
+</div>",5,radio
+15,2023-01-16 00:14:54.442131,12,"<div class=""container bg-white mb-3 rounded"">
+    <div class=""row"">
+        <div class=""col col-10"">
+			<input type=""hidden"" id=""name6"" value=""Kesehatan gigi dan mulut Apakah ada gigi kamu yang berlubang dan terasa sakit?"">
+            <label id=""kolom6"" class=""form-label"">Apakah ada gigi kamu yang berlubang dan terasa sakit?</label>
+        </div>  
+		<div class=""col col-11"">
+            <div class=""form-check"">
+				<input class=""Apakah ada gigi kamu yang berlubang dan terasa sakit?"" value=""1"" onChange=""radioHandler(`Apakah ada gigi kamu yang berlubang dan terasa sakit?`)"" type=""radio"" name=""labelApakah ada gigi kamu yang berlubang dan terasa sakit?"" id=""flexRadioDefault1"">
+				<label class=""form-check-label"" for=""flexRadioDefault1"">
+					Ya
+				</label>
+			</div>
+			<div class=""form-check"">
+				<input class=""Apakah ada gigi kamu yang berlubang dan terasa sakit?"" value=""0"" onChange=""radioHandler(`Apakah ada gigi kamu yang berlubang dan terasa sakit?`)"" type=""radio"" name=""labelApakah ada gigi kamu yang berlubang dan terasa sakit?"" id=""flexRadioDefault2"">
+				<label class=""form-check-label"" for=""flexRadioDefault2"">
+					Tidak
+				</label>
+			</div>
+        </div>
+    </div>
+	<input type=""hidden"" class=""test"" id=""radioApakah ada gigi kamu yang berlubang dan terasa sakit?"" name=""Kesehatan gigi dan mulut Apakah ada gigi kamu yang berlubang dan terasa sakit?"">
+</div>",6,radio
+16,2023-01-16 00:14:54.442131,12,"<div class=""container bg-white mb-3 rounded"">
+    <div class=""row"">
+        <div class=""col col-10"">
+			<input type=""hidden"" id=""name7"" value=""Kesehatan gigi dan mulut Apakah gusi kamu bengkak dan terasa sakit?"">
+            <label id=""kolom7"" class=""form-label"">Apakah gusi kamu bengkak dan terasa sakit?</label>
+        </div>  
+		<div class=""col col-11"">
+            <div class=""form-check"">
+				<input class=""Apakah gusi kamu bengkak dan terasa sakit?"" value=""1"" onChange=""radioHandler(`Apakah gusi kamu bengkak dan terasa sakit?`)"" type=""radio"" name=""labelApakah gusi kamu bengkak dan terasa sakit?"" id=""flexRadioDefault1"">
+				<label class=""form-check-label"" for=""flexRadioDefault1"">
+					Ya
+				</label>
+			</div>
+			<div class=""form-check"">
+				<input class=""Apakah gusi kamu bengkak dan terasa sakit?"" value=""0"" onChange=""radioHandler(`Apakah gusi kamu bengkak dan terasa sakit?`)"" type=""radio"" name=""labelApakah gusi kamu bengkak dan terasa sakit?"" id=""flexRadioDefault2"">
+				<label class=""form-check-label"" for=""flexRadioDefault2"">
+					Tidak
+				</label>
+			</div>
+        </div>
+    </div>
+	<input type=""hidden"" class=""test"" id=""radioApakah gusi kamu bengkak dan terasa sakit?"" name=""Kesehatan gigi dan mulut Apakah gusi kamu bengkak dan terasa sakit?"">
+</div>",7,radio
+17,2023-01-16 00:14:54.442131,12,"<div class=""container bg-white mb-3 rounded"">
+    <div class=""row"">
+        <div class=""col col-10"">
+			<input type=""hidden"" id=""name8"" value=""Kesehatan pendengaran Nyeri telinga"">
+            <label id=""kolom8"" class=""form-label"">Merasakan Nyeri Pada Telinga?</label>
+        </div>  
+		<div class=""col col-11"">
+            <div class=""form-check"">
+				<input class=""Merasakan Nyeri Pada Telinga?"" value=""1"" onChange=""radioHandler(`Merasakan Nyeri Pada Telinga?`)"" type=""radio"" name=""labelMerasakan Nyeri Pada Telinga?"" id=""flexRadioDefault1"">
+				<label class=""form-check-label"" for=""flexRadioDefault1"">
+					Ya
+				</label>
+			</div>
+			<div class=""form-check"">
+				<input class=""Merasakan Nyeri Pada Telinga?"" value=""0"" onChange=""radioHandler(`Merasakan Nyeri Pada Telinga?`)"" type=""radio"" name=""labelMerasakan Nyeri Pada Telinga?"" id=""flexRadioDefault2"">
+				<label class=""form-check-label"" for=""flexRadioDefault2"">
+					Tidak
+				</label>
+			</div>
+        </div>
+    </div>
+	<input type=""hidden"" class=""test"" id=""radioMerasakan Nyeri Pada Telinga?"" name=""Kesehatan pendengaran Nyeri telinga"">
+</div>",8,radio
+18,2023-01-16 00:14:54.442131,12,"<div class=""container bg-white mb-3 rounded"">
+    <div class=""row"">
+        <div class=""col col-10"">
+			<input type=""hidden"" id=""name9"" value=""Kesehatan pendengaran Tidak merespon bila ada suara keras"">
+            <label id=""kolom9"" class=""form-label"">Tidak Merespon Bila Ada Suara Keras?</label>
+        </div>  
+		<div class=""col col-11"">
+            <div class=""form-check"">
+				<input class=""Tidak Merespon Bila Ada Suara Keras?"" value=""1"" onChange=""radioHandler(`Tidak Merespon Bila Ada Suara Keras?`)"" type=""radio"" name=""labelTidak Merespon Bila Ada Suara Keras?"" id=""flexRadioDefault1"">
+				<label class=""form-check-label"" for=""flexRadioDefault1"">
+					Ya
+				</label>
+			</div>
+			<div class=""form-check"">
+				<input class=""Tidak Merespon Bila Ada Suara Keras?"" value=""0"" onChange=""radioHandler(`Tidak Merespon Bila Ada Suara Keras?`)"" type=""radio"" name=""labelTidak Merespon Bila Ada Suara Keras?"" id=""flexRadioDefault2"">
+				<label class=""form-check-label"" for=""flexRadioDefault2"">
+					Tidak
+				</label>
+			</div>
+        </div>
+    </div>
+	<input type=""hidden"" class=""test"" id=""radioTidak Merespon Bila Ada Suara Keras?"" name=""Kesehatan pendengaran Tidak merespon bila ada suara keras"">
+</div>",9,radio
+19,2023-01-16 00:14:54.442131,12,"<div class=""container bg-white mb-3 rounded"">
+    <div class=""row"">
+        <div class=""col col-10"">
+			<input type=""hidden"" id=""name10"" value=""Keluhan kesehatan mata Tidak dapat melihat/membaca dengan baik"">
+            <label id=""kolom10"" class=""form-label"">Tidak Dapat Melihat/Membaca Dengan Baik?</label>
+        </div>  
+		<div class=""col col-11"">
+            <div class=""form-check"">
+				<input class=""Tidak Dapat Melihat/Membaca Dengan Baik?"" value=""1"" onChange=""radioHandler(`Tidak Dapat Melihat/Membaca Dengan Baik?`)"" type=""radio"" name=""labelTidak Dapat Melihat/Membaca Dengan Baik?"" id=""flexRadioDefault1"">
+				<label class=""form-check-label"" for=""flexRadioDefault1"">
+					Ya
+				</label>
+			</div>
+			<div class=""form-check"">
+				<input class=""Tidak Dapat Melihat/Membaca Dengan Baik?"" value=""0"" onChange=""radioHandler(`Tidak Dapat Melihat/Membaca Dengan Baik?`)"" type=""radio"" name=""labelTidak Dapat Melihat/Membaca Dengan Baik?"" id=""flexRadioDefault2"">
+				<label class=""form-check-label"" for=""flexRadioDefault2"">
+					Tidak
+				</label>
+			</div>
+        </div>
+    </div>
+	<input type=""hidden"" class=""test"" id=""radioTidak Dapat Melihat/Membaca Dengan Baik?"" name=""Keluhan kesehatan mata Tidak dapat melihat/membaca dengan baik"">
+</div>",10,radio
+20,2023-01-16 00:14:54.442131,12,"<div class=""container bg-white mb-3 rounded"">
+    <div class=""row"">
+        <div class=""col col-10"">
+			<input type=""hidden"" id=""name11"" value=""Keluhan kesehatan mata Menggunakan kacamata"">
+            <label id=""kolom11"" class=""form-label"">Menggunakan Kacamata?</label>
+        </div>  
+		<div class=""col col-11"">
+            <div class=""form-check"">
+				<input class=""Menggunakan Kacamata?"" value=""1"" onChange=""radioHandler(`Menggunakan Kacamata?`)"" type=""radio"" name=""labelMenggunakan Kacamata?"" id=""flexRadioDefault1"">
+				<label class=""form-check-label"" for=""flexRadioDefault1"">
+					Ya
+				</label>
+			</div>
+			<div class=""form-check"">
+				<input class=""Menggunakan Kacamata?"" value=""0"" onChange=""radioHandler(`Menggunakan Kacamata?`)"" type=""radio"" name=""labelMenggunakan Kacamata?"" id=""flexRadioDefault2"">
+				<label class=""form-check-label"" for=""flexRadioDefault2"">
+					Tidak
+				</label>
+			</div>
+        </div>
+    </div>
+	<input type=""hidden"" class=""test"" id=""radioMenggunakan Kacamata?"" name=""Keluhan kesehatan mata Menggunakan kacamata"">
+</div>",11,radio
+21,2023-01-16 00:14:54.442131,12,"<div class=""container bg-white mb-3 rounded"">
+    <div class=""row"">
+        <div class=""col col-10"">
+			<input type=""hidden"" id=""name12"" value=""Kuesioner Kekuatan dan Kesulitan pada Anak Usia 11-18 Tahun Saya sering bertengkar dengan orang lain. Saya dapat memaksa orang lain melakukan apa yang saya inginkan."">
+            <label id=""kolom12"" class=""form-label"">Cenderung Suka Bertengkar Dengan Orang Lain?</label>
+        </div>  
+		<div class=""col col-11"">
+            <div class=""form-check"">
+				<input class=""Cenderung Suka Bertengkar Dengan Orang Lain?"" value=""2"" onChange=""radioHandler(`Cenderung Suka Bertengkar Dengan Orang Lain?`)"" type=""radio"" name=""labelCenderung Suka Bertengkar Dengan Orang Lain?"" id=""flexRadioDefault1"">
+				<label class=""form-check-label"" for=""flexRadioDefault1"">
+					Benar
+				</label>
+			</div>
+			<div class=""form-check"">
+				<input class=""Cenderung Suka Bertengkar Dengan Orang Lain?"" value=""1"" onChange=""radioHandler(`Cenderung Suka Bertengkar Dengan Orang Lain?`)"" type=""radio"" name=""labelCenderung Suka Bertengkar Dengan Orang Lain?"" id=""flexRadioDefault2"">
+				<label class=""form-check-label"" for=""flexRadioDefault2"">
+					Agak Benar
+				</label>
+			</div>
+			<div class=""form-check"">
+				<input class=""Cenderung Suka Bertengkar Dengan Orang Lain?"" value=""0"" onChange=""radioHandler(`Cenderung Suka Bertengkar Dengan Orang Lain?`)"" type=""radio"" name=""labelCenderung Suka Bertengkar Dengan Orang Lain?"" id=""flexRadioDefault3"">
+				<label class=""form-check-label"" for=""flexRadioDefault3"">
+					Tidak
+				</label>
+			</div>
+        </div>
+    </div>
+	<input type=""hidden"" class=""test"" id=""radioCenderung Suka Bertengkar Dengan Orang Lain?"" name=""Kuesioner Kekuatan dan Kesulitan pada Anak Usia 11-18 Tahun Saya sering bertengkar dengan orang lain. Saya dapat memaksa orang lain melakukan apa yang saya inginkan."">
+</div>",12,radio
+22,2023-01-16 00:14:54.442131,12,"<div class=""container bg-white mb-3 rounded"">
+    <div class=""row"">
+        <div class=""col col-10"">
+			<input type=""hidden"" id=""name13"" value=""Kuesioner Kekuatan dan Kesulitan pada Anak Usia 11-18 Tahun Saya banyak merasa cemas atau khawatir terhadap apapun."">
+            <label id=""kolom13"" class=""form-label"">Cenderung Merasa Cemas/Khawatir Terhadap Apapun?</label>
+        </div>  
+		<div class=""col col-11"">
+            <div class=""form-check"">
+				<input class=""Cenderung Merasa Cemas/Khawatir Terhadap Apapun?"" value=""2"" onChange=""radioHandler(`Cenderung Merasa Cemas/Khawatir Terhadap Apapun?`)"" type=""radio"" name=""labelCenderung Merasa Cemas/Khawatir Terhadap Apapun?"" id=""flexRadioDefault1"">
+				<label class=""form-check-label"" for=""flexRadioDefault1"">
+					Benar
+				</label>
+			</div>
+			<div class=""form-check"">
+				<input class=""Cenderung Merasa Cemas/Khawatir Terhadap Apapun?"" value=""1"" onChange=""radioHandler(`Cenderung Merasa Cemas/Khawatir Terhadap Apapun?`)"" type=""radio"" name=""labelCenderung Merasa Cemas/Khawatir Terhadap Apapun?"" id=""flexRadioDefault2"">
+				<label class=""form-check-label"" for=""flexRadioDefault2"">
+					Agak Benar
+				</label>
+			</div>
+			<div class=""form-check"">
+				<input class=""Cenderung Merasa Cemas/Khawatir Terhadap Apapun?"" value=""0"" onChange=""radioHandler(`Cenderung Merasa Cemas/Khawatir Terhadap Apapun?`)"" type=""radio"" name=""labelCenderung Merasa Cemas/Khawatir Terhadap Apapun?"" id=""flexRadioDefault3"">
+				<label class=""form-check-label"" for=""flexRadioDefault3"">
+					Tidak
+				</label>
+			</div>
+        </div>
+    </div>
+	<input type=""hidden"" class=""test"" id=""radioCenderung Merasa Cemas/Khawatir Terhadap Apapun?"" name=""Kuesioner Kekuatan dan Kesulitan pada Anak Usia 11-18 Tahun Saya banyak merasa cemas atau khawatir terhadap apapun."">
+</div>",13,radio
+23,2023-01-16 00:14:54.442131,12,"<div class=""container bg-white mb-3 rounded"">
+    <div class=""row"">
+        <div class=""col col-10"">
+			<input type=""hidden"" id=""name14"" value=""2. Dominasi Otak Tidak dapat menyelesaikan tugas secara konsisten?"">
+            <label id=""kolom14"" class=""form-label"">Tidak Dapat Menyelesaikan Tugas Secara Konsisten?</label>
+        </div>  
+		<div class=""col col-11"">
+            <div class=""form-check"">
+				<input class=""Tidak Dapat Menyelesaikan Tugas Secara Konsisten?"" value=""1"" onChange=""radioHandler(`Tidak Dapat Menyelesaikan Tugas Secara Konsisten?`)"" type=""radio"" name=""labelTidak Dapat Menyelesaikan Tugas Secara Konsisten?"" id=""flexRadioDefault1"">
+				<label class=""form-check-label"" for=""flexRadioDefault1"">
+					Ya
+				</label>
+			</div>
+			<div class=""form-check"">
+				<input class=""Tidak Dapat Menyelesaikan Tugas Secara Konsisten?"" value=""0"" onChange=""radioHandler(`Tidak Dapat Menyelesaikan Tugas Secara Konsisten?`)"" type=""radio"" name=""labelTidak Dapat Menyelesaikan Tugas Secara Konsisten?"" id=""flexRadioDefault2"">
+				<label class=""form-check-label"" for=""flexRadioDefault2"">
+					Tidak
+				</label>
+			</div>
+        </div>
+    </div>
+	<input type=""hidden"" class=""test"" id=""radioTidak Dapat Menyelesaikan Tugas Secara Konsisten?"" name=""2. Dominasi Otak Tidak dapat menyelesaikan tugas secara konsisten?"">
+</div>",14,radio
+24,2023-01-16 00:14:54.442131,12,"<div class=""container bg-white mb-3 rounded"">
+    <div class=""row"">
+        <div class=""col col-10"">
+			<input type=""hidden"" id=""name15"" value=""2. Dominasi Otak Harus selalu diingatkan untuk mengerjakan sesuatu pekerjaan?"">
+            <label id=""kolom15"" class=""form-label"">Harus Selalu Diingatkan Untuk Mengerjakan Suatu Pekerjaan?</label>
+        </div>  
+		<div class=""col col-11"">
+            <div class=""form-check"">
+				<input class=""Harus Selalu Diingatkan Untuk Mengerjakan Suatu Pekerjaan?"" value=""1"" onChange=""radioHandler(`Harus Selalu Diingatkan Untuk Mengerjakan Suatu Pekerjaan?`)"" type=""radio"" name=""labelHarus Selalu Diingatkan Untuk Mengerjakan Suatu Pekerjaan?"" id=""flexRadioDefault1"">
+				<label class=""form-check-label"" for=""flexRadioDefault1"">
+					Ya
+				</label>
+			</div>
+			<div class=""form-check"">
+				<input class=""Harus Selalu Diingatkan Untuk Mengerjakan Suatu Pekerjaan?"" value=""0"" onChange=""radioHandler(`Harus Selalu Diingatkan Untuk Mengerjakan Suatu Pekerjaan?`)"" type=""radio"" name=""labelHarus Selalu Diingatkan Untuk Mengerjakan Suatu Pekerjaan?"" id=""flexRadioDefault2"">
+				<label class=""form-check-label"" for=""flexRadioDefault2"">
+					Tidak
+				</label>
+			</div>
+        </div>
+    </div>
+	<input type=""hidden"" class=""test"" id=""radioHarus Selalu Diingatkan Untuk Mengerjakan Suatu Pekerjaan?"" name=""2. Dominasi Otak Harus selalu diingatkan untuk mengerjakan sesuatu pekerjaan?"">
+</div>",15,radio
+25,2023-01-16 00:19:33.747915,15,"<div class=""container bg-white mb-3 rounded"">
+                                    <div class=""row"">
+                                        <div class=""col col-10"">
+                                            <label id=""kolom1"" class=""form-label"">Nama</label>
+                                        </div> 
+                                        <div class=""col col-11""> 
+                                            <input type=""text"" class=""test"" name=""Nama"">
+                                        </div>    
+                                    </div>
+                                </div>",1,text
+26,2023-01-16 00:19:43.521739,15,"<div class=""container bg-white mb-3 rounded"">
+                                    <div class=""row"">
+                                        <div class=""col col-10"">
+                                            <label id=""kolom2"" class=""form-label"">NPM</label>
+                                        </div>
+                                        <div class=""col col-11""> 
+                                            <input type=""number"" class=""test"" name=""NPM"">
+                                        </div>   
+                                    </div>
+                                </div>",2,number
+27,2023-01-16 00:20:14.0372,15,"<div class=""container bg-white mb-3 rounded"">
+                                    <div class=""row"">
+                                        <div class=""col col-10"">
+                                            <label id=""kolom3"" class=""form-label"">Tanggal Lahir</label>
+                                        </div> 
+                                        <div class=""col col-11""> 
+                                            <input type=""date"" class=""test"" name=""Tanggal Lahir"">
+                                        </div>   
+                                    </div>
+                                </div>",3,date
+28,2023-01-16 00:22:32.528594,15,"<div class=""container bg-white mb-3 rounded"">
+                            <div class=""row"">
+                                <div class=""col col-10"">
+                                    <input type=""hidden"" id='name4' value=""Jenis Kelamin"">
+                                    <label id=""kolom4"" class=""form-label"">Jenis Kelamin</label>
+                                </div>
+                                <div class=""col col-11"">
+                                <div class=""form-check"">
+                                        <input class=""Jenis Kelamin"" value=""Pria"" onChange=""radioHandler('Jenis Kelamin')"" type=""radio"" name=""labelJenis Kelamin"" id=""flexRadioDefault1"">
+                                        <label class=""form-check-label"" for=""flexRadioDefault1"">
+                                            Pria
+                                        </label>
+                                    </div><div class=""form-check"">
+                                        <input class=""Jenis Kelamin"" value=""Wanita"" onChange=""radioHandler('Jenis Kelamin')"" type=""radio"" name=""labelJenis Kelamin"" id=""flexRadioDefault1"">
+                                        <label class=""form-check-label"" for=""flexRadioDefault1"">
+                                            Wanita
+                                        </label>
+                                    </div><input type=""hidden"" class=""test"" id=""radioJenis Kelamin"" name=""Jenis Kelamin""> </div>
+                            </div>
+                        </div>",4,radio
+30,2023-01-16 00:34:27.896326,15,"<div class=""container bg-white mb-3 rounded"">
+                                    <div class=""row"">
+                                        <div class=""col col-10"">
+                                            <label id=""kolom5"" class=""form-label"">Usia</label>
+                                        </div>
+                                        <div class=""col col-11""> 
+                                            <input type=""number"" class=""test"" name=""Usia"">
+                                        </div>   
+                                    </div>
+                                </div>",5,number

@@ -1,0 +1,91 @@
+<%- include('./layout/header'); %>
+
+<%- include('./layout/sideBar'); %>
+
+
+<div class="col col-10">
+    <div class="row justify-content-end border-bottom border-dark p-3" style="width:1280px;">
+        <div class="col-auto">
+            <span class="align-middle">Nama Program : </span>
+        </div>
+        <div class="col-4">
+            <div class="btn-group">
+                <select class="btn btn-secondary dropdown-toggle" id="ddProgram" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false" onchange="clearForm()">
+                    <option value="" selected disabled hidden>Pilih Disini</option>
+                </select>   
+            </div>
+        </div>
+        <div class="col-auto">
+            <span class="align-middle">Form Laporan : </span>
+        </div>
+        <div class="col-4">
+            <div class="btn-group">
+                <select class="btn btn-secondary dropdown-toggle" id="ddLaporan" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                    <option value="" selected disabled hidden>Pilih Disini</option>
+                </select> 
+            </div>
+        </div>
+    </div>
+    <div class="container m-3" style="width:1225px; background-color: #336699;">
+        <!-- Button trigger modal -->
+        <div id="btnTambah">
+            <button type="button" class="btn btn-light my-3" data-bs-toggle="modal" data-bs-target="#exampleModal" id="tambahkanLabel" onclick="resetLoop()" style="visibility: hidden;">Tambahkan Kolom</button>
+                    
+                    <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Kolom Baru</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="container">
+                <input id="newLabel" type="text" class="form-control" placeholder="Nama Kolom" disabled>
+            </div>
+            <div class="container" id="namaLabelInput">
+
+            </div>
+            <div class="container" >
+                <div class="container">
+                    <p>Tipe Masukan Data :</p>
+                </div>
+                <div class="ms-auto container">
+                    <div class="btn-group">
+                        <select class="btn btn-secondary dropdown-toggle" id="btnLabelData" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                            <option value="" selected disabled hidden>Pilih Disini</option>
+                            <option value="text">Teks</option>
+                            <option value="number">Angka</option>
+                            <option value="date">Tanggal</option>
+                            <option value="radio">Pilihan</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer justify-content-center">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Batal</button>
+          <button type="button" class="btn btn-primary text-white" data-bs-dismiss="modal" onclick="labelBaru()">Simpan</button>
+        </div>
+      </div>
+    </div>
+  </div>
+        </div>
+        
+       
+        <form id="labelInput">
+            
+        </form>
+  
+        </div>
+    </div>
+</div>
+
+</div>
+
+<script src="js/editData.js"></script>
+
+
+<%- include('./layout/footer'); %>
+
+

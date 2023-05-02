@@ -1,0 +1,27 @@
+<%- include('./layout/header'); %>
+
+<%- include('./layout/sideBar'); %>
+
+<div class="col col-10">
+    <div class="row justify-content-end border-bottom border-dark p-3" style="width:1275px;">
+        <div class="col-auto">
+            <span class="align-middle">Nama Program : </span>
+        </div>
+        <div class="col-4">
+            <div class="btn-group">
+                <select class="btn btn-secondary dropdown-toggle" id="ddProgram" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                    <option value="" selected disabled hidden>Pilih Disini</option>
+                </select>  
+            </div>
+        </div>
+    </div>
+    <div class="container dashboard m-3 p-2 visualisasi" id="visual" style="width: 1215px; background-color: #336699;">
+    </div>
+</div>
+
+</div>
+<script src="js/visualisasiData.js"></script>
+
+<%- include('./layout/footer'); %>
+
+

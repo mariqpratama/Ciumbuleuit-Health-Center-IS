@@ -1,0 +1,87 @@
+<%- include('./layout/header'); %>
+
+<%- include('./layout/sideBar'); %>
+
+
+<div class="col col-10">
+    <div class="row justify-content-end border-bottom border-dark p-3" style="width:1280px;">
+        <div class="col-auto">
+            <span class="align-middle">Nama Program : </span>
+        </div>
+        <div class="col-4">
+            <div class="btn-group">
+                <select class="btn btn-secondary dropdown-toggle" id="ddProgram" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false" onchange="clearForm()">
+                    <option value="" selected disabled hidden>Pilih Disini</option>
+                </select>   
+            </div>
+        </div>
+        <div class="col-auto">
+            <span class="align-middle">Form Laporan : </span>
+        </div>
+        <div class="col-4">
+            <div class="btn-group">
+                <select class="btn btn-secondary dropdown-toggle" id="ddLaporan" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                    <option value="" selected disabled hidden>Pilih Disini</option>
+                </select> 
+            </div>
+        </div>
+    </div>
+    <div class="container m-3" style="width:1225px; background-color: #336699;">
+        <div id="btnTambah" style="visibility: hidden;">
+            <div class="container bg-white mb-2 rounded">
+                <div class="row ">
+                    <h2>Menu Unggah Excel</h2>
+                </div>
+            </div>
+            <div class="container bg-white mb-5 rounded">
+                <div class="row ">
+                    <div class="col col-10 mb-3">
+                        <h4>Silahkan masukan file excel di bawah.</h4>
+                    </div>
+                    <div class="col col-11"> 
+                        <!-- <input type="file" id="file_upload" />
+                        <button onclick="upload()">Unggah</button> -->
+                        <div class="input-group mb-3">
+                            <input type="file" class="form-control" id="file_upload">
+                            <label class="input-group-text" onclick="upload()" for="file_upload">Unggah</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container bg-white mb-2 rounded">
+                <div class="row">
+                    <h2>Form Masukan Data</h2>
+                </div>
+            </div>
+             
+        </div>
+        
+        <form id="labelInput">
+            
+        </form>
+
+        <div class="modal fade" id="modalData" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Apakah anda yakin ingin menyimpan data?</p>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Tidak</button>
+                        <button type="button" class="btn btn-primary text-white" data-bs-dismiss="modal" onclick="insertData()">Ya</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<script src="js/masukanData.js"></script>
+
+<%- include('./layout/footer'); %>
+
+
