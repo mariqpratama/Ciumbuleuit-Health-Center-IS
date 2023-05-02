@@ -1,5 +1,5 @@
 # Ciumbuleuit-Health-Center-IS
-A final thesis project in collaboration with Ciumbuleuit Health Center
+A web-based information system for patient treatment data in Ciumbuleuit Health Center. This project is made as an Informatics final thesis in Parahyangan Catholic University.
 
 # Build with
 - HTML
